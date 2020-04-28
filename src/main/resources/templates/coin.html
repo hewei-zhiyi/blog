@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{common :: header('标签/分页')}"></head>
+<body style="background-image: url('img/73981919_p0.jpg');background-attachment:fixed;background-repeat: no-repeat;">
+
+<!--主栏-->
+<div th:insert="heart :: heart"></div>
+
+<!--显示栏  coin充电-->
+<div class="main" id="about">
+    <div class="banner-text-w3ls">
+
+        <!--内容块-->
+        <div class="uk-margin-medium uk-card uk-card-default uk-card-body"
+             style="border-radius:22px;background: rgba(255,255,255,.8);height: 800px;margin-bottom: 86px;">
+
+            <div>
+                <h3 class="uk-heading-divider" align="center" style="font-weight:bold;font-family: '幼圆';">
+                    关于我/与此站的故事
+                </h3>
+                <div>
+                    <div style="margin-left: 6px">有了目标就要全力以赴</div>
+                    <div style="margin-right: 0px" style="text-align: right">——《当幸福来敲门》</div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <!--页尾-->
+        <div th:insert="footer :: footer"></div>
+
+    </div>
+</div>
+
+</body>
+</html>

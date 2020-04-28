@@ -1,0 +1,57 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body >
+
+<!--左侧菜单 碎片-->
+<!--主栏-->
+<div class="sidenav" th:fragment="heart">
+    <!--音乐-->
+    <div class="myMusic">
+
+    </div>
+    <div id="myHeart"  align="center">
+        <div id="myIntroduction">
+            <div id="myAvatar">
+                <img src="img/nvdi.jpg" />
+            </div>
+            <div id="myTalkAbout">
+                <h2 style="font-weight:bold;font-family: 'Kristen ITC';">zhiyi</h2>
+                <p>欢迎来到此处浏览</p>
+            </div>
+        </div>
+
+        <div style="width: 100%;height: 76px;">
+            <a href="/" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 主页; pos: bottom"
+               uk-icon="home"></a>
+            <a href="archive.html" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 文章归档; pos: bottom"
+               uk-icon="album"></a>
+            <a href="classify.html" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 标签/分类; pos: bottom"
+               uk-icon="tag"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 书签; pos: bottom"
+               uk-icon="bookmark"></a>
+        </div>
+        <div style="width: 100%;height: 80px;">
+            <a href="introduction.html" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 站长信息; pos: bottom"
+               uk-icon="user"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 日记; pos: bottom"
+               uk-icon="calendar"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 留言板; pos: bottom"
+               uk-icon="commenting"></a>
+            <a href="coin.html" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 帮站长冲一下电; pos: bottom"
+               uk-icon="bolt"></a>
+        </div>
+
+        <div style="width: 100%;height: 150px;">
+            <a href="" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: GitHub; pos: bottom"
+               uk-icon="github-alt"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: twitter; pos: bottom"
+               uk-icon="twitter"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: Gmail; pos: bottom"
+               uk-icon="mail"></a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

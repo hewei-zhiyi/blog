@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{common :: header('标签/分页')}"></head>
+<body style="background-image: url('img/73981919_p0.jpg');background-attachment:fixed;background-repeat: no-repeat;">
+<!--主栏-->
+<div th:insert="heart :: heart"></div>
+
+<!--显示栏  标签/分页-->
+<div class="main" id="about">
+    <div class="banner-text-w3ls">
+
+        <!--内容块-->
+        <div class="uk-margin-medium uk-card uk-card-default uk-card-body"
+             style="border-radius:22px;background: rgba(255,255,255,.8);height: 800px;margin-bottom: 86px;">
+
+            <div>
+                <h3 class="uk-heading-divider" align="center" style="font-weight:bold;font-family: '幼圆';">
+                    标签 / 分页
+                </h3>
+                <div align="center">
+                    <ul class="uk-subnav uk-subnav-pill" uk-switcher>
+                        <li>
+                            <a class="uk-button uk-button-default" href="#" style="border-radius: 25px;">
+                                学习
+                                <span class="uk-badge">1</span>
+                            </a>
+                        </li>
+                        <li><a class="uk-button uk-button-default" href="#" style="border-radius: 25px;">
+                                生活
+                                <span class="uk-badge">1</span>
+                             </a>
+                        </li>
+                        <li>
+                            <a class="uk-button uk-button-default" href="#" style="border-radius: 25px;">
+                                记录
+                                <span class="uk-badge">1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="uk-button uk-button-default" href="#" style="border-radius: 25px;">
+                                其它
+                                <span class="uk-badge">1</span>
+                             </a>
+                        </li>
+                    </ul>
+
+                    <ul class="uk-switcher uk-margin">
+                        <li><span class="uk-badge"><span uk-icon="tag"></span>学习!</span></li>
+                        <li><span class="uk-badge"><span uk-icon="tag"></span>生活!</span></li>
+                        <li><span class="uk-badge"><span uk-icon="tag"></span>记录!</span></li>
+                        <li><span class="uk-badge"><span uk-icon="tag"></span>其它!</span></li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+        <!--页尾-->
+        <div th:insert="footer :: footer"></div>
+
+    </div>
+</div>
+
+
+</body>
+</html>

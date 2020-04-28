@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{common :: header('标签/分页')}"></head>
+<body style="background-image: url('img/73981919_p0.jpg');background-attachment:fixed;background-repeat: no-repeat;">
+
+<!--主栏-->
+<div th:insert="heart :: heart"></div>
+
+<!--显示栏  coin充电-->
+<div class="main" id="about">
+    <div class="banner-text-w3ls">
+
+        <!--内容块-->
+        <div class="uk-margin-medium uk-card uk-card-default uk-card-body"
+             style="border-radius:22px;background: rgba(255,255,255,.8);height: 810px;margin-bottom: 86px;">
+
+            <div>
+                <h3 class="uk-heading-divider" align="center" style="font-weight:bold;font-family: '幼圆';">
+                    关于我/此站的故事
+                </h3>
+                <!--引用-->
+                <div style="margin-bottom: 60px">
+                    <div style="margin-left: 6px;">有了目标就要全力以赴</div>
+                    <div style="text-align: right">——《当幸福来敲门》</div>
+                </div>
+
+                <div style="margin-bottom: 40px">
+                    <h5 class="uk-heading-divider" style="font-weight:bold;font-family: 'Kristen ITC';font-size: 20px">
+                            <span href="" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 关于我; pos: bottom"
+                                  uk-icon="microphone">
+                            </span>
+                        关于我
+                    </h5>
+                    <div>
+                        <p style="font-size: 12px;font-family: 'Nirmala UI';margin-bottom: 16px">欢迎来到小站</p>
+                        <div>
+                            <p style="margin-left: 6px;">
+                                小站前端风格大部分是借鉴(仿照)
+                                <span><a class="uk-link-heading" href="http://www.shawnzeng.com/about/">Shawn</a></span> 大佬的，
+                                前端完全没有自己的创意(太难了...)
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="uk-heading-divider" style="font-weight:bold;font-family: 'Kristen ITC';font-size: 20px">
+                            <span href="" class="uk-icon-button uk-margin-small-right uk-button-default" uk-tooltip="title: 关于小站; pos: bottom"
+                                  uk-icon="album">
+                            </span>
+                        关于小站
+                    </h5>
+                    <div>
+                        <p style="font-family: 'Nirmala UI';">
+                            前端：
+                            <p>
+                                UI kit3 框架、jQuery
+                                <p>
+                                    前端UI框架差不多挑了十几二十个,最后选择UIkit框架,其中的功能还是挺友好的(特别是图标很好看),对于我这个菜鸟来说
+                                </p>
+                            </p>
+
+                            后端：
+                            <p>
+                                SpringBoot、MyBatisPlus
+                                <p>
+                                    使用spring boot的原因是因为简化了配置,
+                                    使用MyBatisPlus的原因是因为之前自学它，打算练练手...
+                                </p>
+                            </p>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div>
+                    前端做的并不是很好,后面有时间就改进一下吧.......
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!--页尾-->
+        <div th:insert="footer :: footer"></div>
+
+    </div>
+</div>
+
+</body>
+</html>

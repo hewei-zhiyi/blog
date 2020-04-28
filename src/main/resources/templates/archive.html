@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{common :: header('文章归档')}"></head>
+<body style="background-image: url('img/73981919_p0.jpg');background-attachment:fixed;background-repeat: no-repeat;">
+<!--主栏-->
+<div th:insert="heart :: heart"></div>
+
+<!--归档显示栏-->
+<!--显示栏-->
+<div class="main" id="about">
+    <div class="banner-text-w3ls">
+
+        <!--内容块-->
+        <div class="uk-margin-medium uk-card uk-card-default uk-card-body"
+             style="border-radius:22px;background: rgba(255,255,255,.8);">
+
+            <div>
+                <!--时间-->
+                <h3 class="uk-heading-divider"><span class="uk-icon-button" uk-icon="bell"></span>2020</h3>
+            </div>
+            <dl class="uk-description-list uk-description-list-divider">
+                <dt>Description term</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+
+                <dt>Description term</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
+
+                <dt>Description term</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
+            </dl>
+
+        </div>
+
+
+
+        <!--页尾-->
+        <div th:insert="footer :: footer"></div>
+    </div>
+</div>
+
+</body>
+</html>
